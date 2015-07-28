@@ -1,0 +1,579 @@
+{
+    "UniqueID": 4701,
+    "ReferenceSequence": 24,
+    "MemberType": "Individual",
+    "CustomerID": "C000004701",
+    "Memberships": [
+        {
+            "MemberID": "G000000695",
+            "Owner": "6X",
+            "Tier": "Bronze",
+            "EnrolmentDate": 2457190,
+            "AccountID": "A277",
+            "references": [
+                {
+                    "ReferenceType": "ManualUpdate",
+                    "ManualUpdateReference": {
+                        "ShortType": "GUD",
+                        "UniqueId": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "Preferences": {
+        "SSRs": [
+            {
+                "Code": "NSSW",
+                "Sources": [
+                    {
+                        "ReferenceType": "ManualUpdate",
+                        "ManualUpdateReference": {
+                            "ShortType": "GUD",
+                            "UniqueId": 23
+                        }
+                    }
+                ]
+            },
+            {
+                "Code": "VOML",
+                "Sources": [
+                    {
+                        "ReferenceType": "ManualUpdate",
+                        "ManualUpdateReference": {
+                            "ShortType": "GUD",
+                            "UniqueId": 23
+                        }
+                    }
+                ]
+            },
+            {
+                "Code": "CBBG",
+                "Sources": [
+                    {
+                        "ReferenceType": "ManualUpdate",
+                        "ManualUpdateReference": {
+                            "ShortType": "GUD",
+                            "UniqueId": 23
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Sources": {
+        "ManualUpdates": [
+            {
+                "Reference": {
+                    "ShortType": "GUD",
+                    "UniqueId": 1
+                },
+                "AgentId": "*Unknown*",
+                "AgentOrganization": "None",
+                "UpdateTime": 1434463439
+            },
+            {
+                "Reference": {
+                    "ShortType": "GUD",
+                    "UniqueId": 23
+                },
+                "AgentId": "*Unknown*",
+                "AgentOrganization": "None",
+                "UpdateTime": 1434464964
+            }
+        ]
+    },
+    "Products": {
+        "Products": [
+            {
+                "Description": "Perfume",
+                "Amount": 32,
+                "Currency": "EUR",
+                "PurchaseTime": 2457189,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 21
+                },
+                "Status": "Reserved",
+                "ProductType": "OtherProduct",
+                "SourceType": "Manual"
+            },
+            {
+            	"Description": "QAVVWG",
+                "Amount": 0,
+                "Currency": "EUR",
+                "PurchaseTime": 2457170,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 22
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "9922"
+                    },
+                    "Segment": {
+                        "BoardPoint": "CDG",
+                        "OffPoint": "NCE",
+                        "OriginalDepartureTime": ##TIMESTAMP##
+                    },
+                    "MarketingBookingClass": "Y"
+                }
+            },
+            {
+            	"Description": "FG15WG",
+                "Amount": 0,
+                "Currency": "EUR",
+                "PurchaseTime": 2457187,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 67
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "540"
+                    },
+                    "Segment": {
+                        "BoardPoint": "NCE",
+                        "OffPoint": "CDG",
+                        "OriginalDepartureTime": 1434376423
+                    },
+                    "MarketingBookingClass": "B"
+                }
+            },
+            {
+            	"Description": "YOGHH1",
+                "Amount": 0,
+                "Currency": "EUR",
+                "PurchaseTime": 2457120,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 66
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "125"
+                    },
+                    "Segment": {
+                        "BoardPoint": "MUC",
+                        "OffPoint": "NCE",
+                        "OriginalDepartureTime": 1428569623
+                    },
+                    "MarketingBookingClass": "B"
+                }
+            },
+            {
+            	"Description": "6X 850(NCE-MUC) B Class on 2015-04-02",
+                "Amount": 0,
+                "Currency": "EUR",
+                "PurchaseTime": 2457113,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 68
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "850"
+                    },
+                    "Segment": {
+                        "BoardPoint": "NCE",
+                        "OffPoint": "MUC",
+                        "OriginalDepartureTime": 1427964823
+                    },
+                    "MarketingBookingClass": "B"
+                }
+            },
+            {
+                "Description": "Perfume",
+                "Amount": 28,
+                "Currency": "EUR",
+                "PurchaseTime": 2457114,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 1238
+                },
+                "Status": "Reserved",
+                "ProductType": "OtherProduct",
+                "SourceType": "Manual"
+            },
+             {
+                "Description": "Vegetarian Meal",
+                "Amount": 15,
+                "Currency": "EUR",
+                "PurchaseTime": 2457114,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 81
+                },
+                "ProductType": "AncilaryServiceProduct",
+                "Fare": {
+                    "InitialCurrency": "EUR",
+                    "InitialNetCurrency": "EUR",
+                    "InitialTotalAmount": 15,
+                    "InitialNetAmount": 15,
+                    "TotalAmount": 15,
+                    "NetAmount": 15
+                }
+            },
+            {
+                "Description": "WIFI",
+                "Amount": 5,
+                "Currency": "EUR",
+                "PurchaseTime": 2457122,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 83
+                },
+                "ProductType": "AncilaryServiceProduct",
+                "Fare": {
+                    "InitialCurrency": "EUR",
+                    "InitialNetCurrency": "EUR",
+                    "InitialTotalAmount": 5,
+                    "InitialNetAmount": 5,
+                    "TotalAmount": 5,
+                    "NetAmount": 5
+                }
+            },
+            {
+                "Description": "Seat",
+                "Amount": 30,
+                "Currency": "EUR",
+                "PurchaseTime": 2457122,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 74
+                },
+                "ProductType": "AncilaryServiceProduct",
+                "Fare": {
+                    "InitialCurrency": "EUR",
+                    "InitialNetCurrency": "EUR",
+                    "InitialTotalAmount": 30,
+                    "InitialNetAmount": 30,
+                    "TotalAmount": 30,
+                    "NetAmount": 30
+                }
+            }
+        ]
+    },
+    "DisruptionHistory": {
+        "ManualEntries": [
+            {
+                "DisruptionType": "TimingChange",
+                "Delay": 130,
+                "ImpactedFlightProduct": {
+                    "Description": "QAVVWG",
+                    "Amount": 0,
+                    "Currency": "EUR",
+                    "PurchaseTime": 2457170,
+                    "Reference": {
+                        "ShortType": "PRD",
+                        "UniqueId": 22
+                    },
+                    "Status": "Reserved",
+                    "ProductType": "AirSegmentProduct",
+                    "SourceType": "Manual",
+                    "FOP": "CreditCard",
+                    "AirSegment": {
+                        "MarketingFlightIdentifier": {
+                            "AirlineCode": "6X",
+                            "FlightNumber": "9922"
+                        },
+                        "Segment": {
+                            "BoardPoint": "CDG",
+                            "OffPoint": "NCE",
+                            "OriginalDepartureTime": ##TIMESTAMP##
+                        },
+                        "MarketingBookingClass": "B"
+                    }
+                }
+            }
+        ]
+    },
+    "IdentityElement": [
+        {
+            "type": "PersonName",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 2
+            },
+            "name": {
+                "surname": "Hu",
+                "birthSurname": "Hershlag",
+                "givenName": [
+                    "Kewei"
+                ]
+            }
+        },
+        {
+            "type": "Nationality",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 3
+            },
+            "nationality": {
+                "country": "FR"
+            }
+        },
+        {
+            "type": "Document",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 4
+            },
+            "document": {
+                "idNumber": "G54168415",
+                "nationalityReference": {
+                    "ShortType": "IDEL",
+                    "UniqueId": 3
+                }
+            }
+        },
+        {
+            "type": "Gender",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 5
+            },
+            "gender": {
+                "type": "Male"
+            }
+        },
+        {
+            "type": "CivilStatus",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 6
+            },
+            "civilStatus": {
+                "status": "Single"
+            }
+        },
+        {
+            "type": "CivilTitle",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 7
+            },
+            "civilTitle": {
+                "title": ""
+            }
+        },
+        {
+            "type": "BirthDate",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 8
+            },
+            "birthDate": {
+                "date": 2444765
+            }
+        },
+        {
+            "type": "BirthPlace",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 9
+            },
+            "birthPlace": {
+                "city": "Zhuzhou",
+                "country": "CN"
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 10
+            },
+            "contact": {
+                "type": "PostalAddress",
+                "personal": 0,
+                "postalAddress": {
+                    "address": "2206 Yanjiang Road, Zhuzhou",
+                    "country": "CN"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 11
+            },
+            "contact": {
+                "type": "PostalAddress",
+                "personal": 1,
+                "postalAddress": {
+                    "address": "2206 Yanjiang Road, Zhuzhou",
+                    "country": "CN"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 12
+            },
+            "contact": {
+                "type": "Email",
+                "personal": 0,
+                "email": {
+                    "address": "kewei.hu@amadeus.com"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 13
+            },
+            "contact": {
+                "type": "Email",
+                "personal": 1,
+                "email": {
+                    "address": "kewei.hu@amadeus.com"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 14
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 0,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "+33 (0)7 12 34 56"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 15
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 0,
+                "telephone": {
+                    "type": "Mobile",
+                    "number": "+33 (0)7 12 34 56"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 16
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 1,
+                "telephone": {
+                    "type": "Mobile",
+                    "number": "+33 (0)7 12 34 56"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 17
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 1,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "+33 (0)7 12 34 56"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 18
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 1,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "+33 (0)7 12 34 56"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 19
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 0,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "000011111"
+                }
+            }
+        },
+        {
+            "type": "Business",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 20
+            },
+            "business": {
+                "jobTitle": "actress",
+                "department": "Hollywood"
+            }
+        }
+    ],
+    "CommunicationWrapper": {
+        "PreferredLanguage": "FR",
+        "Consent": {
+            "Consent": 1
+        },
+        "Communications": [
+            {
+                "Language": "FR"
+            },
+            {
+                "communicationMean": {
+                    "communicationMeanType": "ALERT_DELIVERY"
+                },
+                "date": ##JULIAN_DAY##,
+                "topic": "Disruption notification"
+            }
+        ]
+    }
+}

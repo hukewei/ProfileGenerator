@@ -1,0 +1,513 @@
+{
+    "UniqueID": 4701,
+    "ReferenceSequence": 24,
+    "MemberType": "Individual",
+    "CustomerID": "C000004701",
+    "Memberships": [
+        {
+            "MemberID": "G000000788",
+            "Owner": "6X",
+            "Tier": "Gold",
+            "EnrolmentDate": 2457190,
+            "AccountID": "A368",
+            "references": [
+                {
+                    "ReferenceType": "ManualUpdate",
+                    "ManualUpdateReference": {
+                        "ShortType": "GUD",
+                        "UniqueId": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "Sources": {
+        "ManualUpdates": [
+            {
+                "Reference": {
+                    "ShortType": "GUD",
+                    "UniqueId": 1
+                },
+                "AgentId": "*Unknown*",
+                "AgentOrganization": "None",
+                "UpdateTime": 1434463439
+            },
+            {
+                "Reference": {
+                    "ShortType": "GUD",
+                    "UniqueId": 23
+                },
+                "AgentId": "*Unknown*",
+                "AgentOrganization": "None",
+                "UpdateTime": 1434464964
+            }
+        ]
+    },
+    "Products": {
+        "Products": [
+            {
+                "Description": "Duty free shopping",
+                "Amount": 152,
+                "Currency": "GBP",
+                "PurchaseTime": 2457189,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 21
+                },
+                "Status": "Reserved",
+                "ProductType": "OtherProduct",
+                "SourceType": "Manual"
+            },
+            {
+                "Amount": 0,
+                "Currency": "GBP",
+                "PurchaseTime": 2457170,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 22
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "220"
+                    },
+                    "Segment": {
+                        "BoardPoint": "JFK",
+                        "OffPoint": "LHR",
+                        "OriginalDepartureTime": ##TIMESTAMP##
+                    },
+                    "MarketingBookingClass": "C"
+                }
+            },
+            {
+            	"Description": "BB65RT",
+                "Amount": 0,
+                "Currency": "GBP",
+                "PurchaseTime": 2457187,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 67
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "950"
+                    },
+                    "Segment": {
+                        "BoardPoint": "LHR",
+                        "OffPoint": "JFK",
+                        "OriginalDepartureTime": 1434376423
+                    },
+                    "MarketingBookingClass": "C"
+                }
+            },
+            {
+            	"Description": "CXA23W",
+                "Amount": 0,
+                "Currency": "USD",
+                "PurchaseTime": 2457120,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 66
+                },
+                "Status": "Reserved",
+                "ProductType": "AirSegmentProduct",
+                "SourceType": "Manual",
+                "FOP": "CreditCard",
+                "AirSegment": {
+                    "MarketingFlightIdentifier": {
+                        "AirlineCode": "6X",
+                        "FlightNumber": "630"
+                    },
+                    "Segment": {
+                        "BoardPoint": "JFK",
+                        "OffPoint": "LHR",
+                        "OriginalDepartureTime": 1428569623
+                    },
+                    "MarketingBookingClass": "C"
+                }
+            },
+            {
+                "Description": "WIFI",
+                "Amount": 28,
+                "Currency": "USD",
+                "PurchaseTime": 2457114,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 1238
+                },
+                "Status": "Reserved",
+                "ProductType": "OtherProduct",
+                "SourceType": "Manual"
+            },
+             {
+                "Description": "Duty free shopping",
+                "Amount": 205,
+                "Currency": "USD",
+                "PurchaseTime": 2457114,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 81
+                },
+                "ProductType": "AncilaryServiceProduct",
+                "Fare": {
+                    "InitialCurrency": "USD",
+                    "InitialNetCurrency": "USD",
+                    "InitialTotalAmount": 515,
+                    "InitialNetAmount": 515,
+                    "TotalAmount": 515,
+                    "NetAmount": 515
+                }
+            },
+            {
+                "Description": "WIFI",
+                "Amount": 25,
+                "Currency": "USD",
+                "PurchaseTime": 2457122,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 83
+                },
+                "ProductType": "AncilaryServiceProduct",
+                "Fare": {
+                    "InitialCurrency": "USD",
+                    "InitialNetCurrency": "USD",
+                    "InitialTotalAmount": 25,
+                    "InitialNetAmount": 25,
+                    "TotalAmount": 25,
+                    "NetAmount": 25
+                }
+            },
+            {
+                "Description": "Lounge",
+                "Amount": 30,
+                "Currency": "USD",
+                "PurchaseTime": 2457122,
+                "Reference": {
+                    "ShortType": "PRD",
+                    "UniqueId": 74
+                },
+                "ProductType": "AncilaryServiceProduct",
+                "Fare": {
+                    "InitialCurrency": "USD",
+                    "InitialNetCurrency": "USD",
+                    "InitialTotalAmount": 30,
+                    "InitialNetAmount": 30,
+                    "TotalAmount": 30,
+                    "NetAmount": 30
+                }
+            }
+        ]
+    },
+    "DisruptionHistory": {
+        "ManualEntries": [
+            {
+                "DisruptionType": "TimingChange",
+                "Delay": 60,
+                "ImpactedFlightProduct": {
+                    "Amount": 0,
+                    "Currency": "GBP",
+                    "PurchaseTime": 2457170,
+                    "Reference": {
+                        "ShortType": "PRD",
+                        "UniqueId": 22
+                    },
+                    "Status": "Reserved",
+                    "ProductType": "AirSegmentProduct",
+                    "SourceType": "Manual",
+                    "FOP": "CreditCard",
+                    "AirSegment": {
+                        "MarketingFlightIdentifier": {
+                            "AirlineCode": "6X",
+                            "FlightNumber": "220"
+                        },
+                        "Segment": {
+                            "BoardPoint": "JFK",
+                            "OffPoint": "LHR",
+                            "OriginalDepartureTime": ##TIMESTAMP##
+                        },
+                        "MarketingBookingClass": "C"
+                    }
+                }
+            }
+        ]
+    },
+    "IdentityElement": [
+        {
+            "type": "PersonName",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 2
+            },
+            "name": {
+                "surname": "Wayne",
+                "birthSurname": "Hershlag",
+                "givenName": [
+                    "Bruce"
+                ]
+            }
+        },
+        {
+            "type": "Nationality",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 3
+            },
+            "nationality": {
+                "country": "US"
+            }
+        },
+        {
+            "type": "Document",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 4
+            },
+            "document": {
+                "idNumber": "US45456145S",
+                "nationalityReference": {
+                    "ShortType": "IDEL",
+                    "UniqueId": 3
+                }
+            }
+        },
+        {
+            "type": "Gender",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 5
+            },
+            "gender": {
+                "type": "Male"
+            }
+        },
+        {
+            "type": "CivilStatus",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 6
+            },
+            "civilStatus": {
+                "status": "Married",
+                "numberOfChildren":2,
+                "effectiveDate": 2442585
+            }
+        },
+        {
+            "type": "CivilTitle",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 7
+            },
+            "civilTitle": {
+                "title": ""
+            }
+        },
+        {
+            "type": "BirthDate",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 8
+            },
+            "birthDate": {
+                "date": 2442585
+            }
+        },
+        {
+            "type": "BirthPlace",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 9
+            },
+            "birthPlace": {
+                "city": "Gotham",
+                "country": "US"
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 10
+            },
+            "contact": {
+                "type": "PostalAddress",
+                "personal": 0,
+                "postalAddress": {
+                    "address": "Wayne Manor, Gotham, New Jersey",
+                    "country": "US"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 11
+            },
+            "contact": {
+                "type": "PostalAddress",
+                "personal": 1,
+                "postalAddress": {
+                    "address": "Wayne Manor, Gotham, New Jersey",
+                    "country": "US"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 12
+            },
+            "contact": {
+                "type": "Email",
+                "personal": 0,
+                "email": {
+                    "address": "bruce.wayne@wayne.com"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 13
+            },
+            "contact": {
+                "type": "Email",
+                "personal": 1,
+                "email": {
+                    "address": "bruce.wayne@wayne.com"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 14
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 0,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "+1 20 7794 1688"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 15
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 0,
+                "telephone": {
+                    "type": "Mobile",
+                    "number": "+1 20 7794 1688"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 16
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 1,
+                "telephone": {
+                    "type": "Mobile",
+                    "number": "+1 20 7794 1688"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 17
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 1,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "+1 20 7794 1688"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 18
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 1,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "+1 20 7794 1688"
+                }
+            }
+        },
+        {
+            "type": "Contact",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 19
+            },
+            "contact": {
+                "type": "Telephone",
+                "personal": 0,
+                "telephone": {
+                    "type": "Landline",
+                    "number": "000011111"
+                }
+            }
+        },
+        {
+            "type": "Business",
+            "reference": {
+                "ShortType": "IDEL",
+                "UniqueId": 20
+            },
+            "business": {
+                "jobTitle": "actress",
+                "department": "Hollywood"
+            }
+        }
+    ],
+    "CommunicationWrapper": {
+        "PreferredLanguage": "US",
+        "Consent": {
+            "Consent": 1
+        },
+        "Communications": [
+            {
+                "Language": "FR"
+            },
+            {
+                "communicationMean": {
+                    "communicationMeanType": "ALERT_DELIVERY"
+                },
+                "date": ##JULIAN_DAY##,
+                "topic": "Disruption notification"
+            }
+        ]
+    }
+}
