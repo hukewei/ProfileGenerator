@@ -1,0 +1,20 @@
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 20px;
+}
+
+
+body > .container {
+  padding: 10px 15px 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+pre {
+    width:100%;
+    max-height:"300px;
+    overflow-x:scroll;
+}
+
+
